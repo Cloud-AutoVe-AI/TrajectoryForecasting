@@ -1,0 +1,29 @@
+{
+
+  "model_name" : "autove",
+
+  "Argoverse_Forecasting" : {
+    "dataset_path" : "/home/dooseop/DATASET/argoverse/argoverse-forecasting/",
+    "preproc_dataset_path" : "./ArgoverseDataset/preprocessed_dataset",
+    "voxel_dir" : "./ArgoverseDataset/preprocessed_dataset/voxels"
+  },
+
+  "Nuscenes" : {
+    "dataset_path": "/home/dooseop/DATASET/nuscenes/",
+    "preproc_dataset_path" : "./NuscenesDataset/preprocessed_dataset",
+    "voxel_dir" : "./NuscenesDataset/preprocessed_dataset/voxels"
+  },
+
+  "ETRI" : {
+    "dataset_path": "/home/dooseop/DATASET/voss/",
+    "preproc_dataset_path" : "./ETRIDataset/preprocessed_dataset",
+    "voxel_dir" : "./ETRIDataset/preprocessed_dataset/voxels"
+  },
+
+   "ETHUCY" : {
+    "dataset_path": "/home/dooseop/DATASET/eth_ucy/",
+    "preproc_dataset_path" : "./ETHUCY/preprocessed_dataset"
+  }
+
+}
+
