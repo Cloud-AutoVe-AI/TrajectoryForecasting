@@ -31,12 +31,6 @@ class Agent:
         self.wlh = None
         self.pose = None
         
-        self.test = None
-        self.testtest = None
-        self.testtesttest = None
-        self.testtestttets = None
-
-
     def bbox2D(self):
         '''
 
