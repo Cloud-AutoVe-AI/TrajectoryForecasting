@@ -30,8 +30,7 @@ class Agent:
         self.bbox_e = None
         self.wlh = None
         self.pose = None
-
-
+        
     def bbox2D(self):
         '''
 
