@@ -117,7 +117,7 @@ def ilvm(parser):
 
     parser.add_argument('--is_draw_centerlines', type=int, default=1)
     parser.add_argument('--is_gauss_prior', type=int, default=0)
-    parser.add_argument('--use_past_traj', type=int, default=0)
+    parser.add_argument('--use_past_traj', type=int, default=1)
 
     # Agent Feature Extraction
     parser.add_argument('--roi_grid_size', type=float, default=2)  # meter / pixel
@@ -211,11 +211,11 @@ def autove_ped(parser):
     parser.add_argument('--is_data_conv', type=int, default=0)
     parser.add_argument('--is_random_rotate', type=int, default=0)
 
-    # ----------------------
+    # -----------------------
     # average | WTA | EWTA |
     # ----------------------
     #    0    |  1  |  2   |
-    # ----------------------
+    # -----------------------
 
     parser.add_argument('--l2_loss_type', type=int, default=1)
     parser.add_argument('--EWTA_ratio', type=float, default=0.5)
