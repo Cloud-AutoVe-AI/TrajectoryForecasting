@@ -166,7 +166,7 @@ def test(args):
         file.write('FDE5_stop :  %s \n' % str(float(int(np.mean(FDE5_stop) * 10000)) / 10000))
         file.close()
 
-        test = 3
+        test = 4
 
 
 def is_moving(trajectory, seconds):
