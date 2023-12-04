@@ -215,7 +215,7 @@ def autove_ped(parser):
     # average | WTA | EWTA |
     # ----------------------
     #    0    |  1  |  2   |
-    # ----------------------
+    # -----------------------
 
     parser.add_argument('--l2_loss_type', type=int, default=1)
     parser.add_argument('--EWTA_ratio', type=float, default=0.5)
