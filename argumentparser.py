@@ -211,7 +211,7 @@ def autove_ped(parser):
     parser.add_argument('--is_data_conv', type=int, default=0)
     parser.add_argument('--is_random_rotate', type=int, default=0)
 
-    # ----------------------
+    # -----------------------
     # average | WTA | EWTA |
     # ----------------------
     #    0    |  1  |  2   |
