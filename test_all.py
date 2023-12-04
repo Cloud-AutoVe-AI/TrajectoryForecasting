@@ -20,7 +20,6 @@ def main():
 
 def test(args):
 
-
     # CUDA setting
     os.environ["CUDA_VISIBLE_DEVICES"] = str(int(args.gpu_num))
 
