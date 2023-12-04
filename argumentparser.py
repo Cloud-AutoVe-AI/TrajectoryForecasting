@@ -108,7 +108,7 @@ parser.add_argument('--hdmap_type', type=int, default=0) # 0:color, 1:multi-ch
 parser.add_argument('--hdmap_ch_dim', type=int, default=4)
 parser.add_argument('--feat_map_size', type=int, default=225)
 parser.add_argument('--lidar_map_ch_dim', type=int, default=25)
-parser.add_argument('--centerline_width', type=int, default=1)
+parser.add_argument('--centerline_width', type=int, default=2)
 
 def ilvm(parser):
 
