@@ -19,7 +19,7 @@ def main():
     args = parser.parse_args()
     test(args)
 
-    a = 2
+    a = 3
 
 def test(args):
 
