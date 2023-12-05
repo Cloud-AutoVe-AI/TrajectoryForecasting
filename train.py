@@ -2,6 +2,7 @@ from utils.libraries import *
 from utils.functions import get_dtypes, print_training_info, print_current_train_progress, read_config
 import argumentparser as ap
 from helper import load_datasetloader, load_solvers
+import numpy as np
 
 def main():
 
