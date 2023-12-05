@@ -19,6 +19,8 @@ def main():
     args = parser.parse_args()
     test(args)
 
+    a = 0
+
 def test(args):
 
 
